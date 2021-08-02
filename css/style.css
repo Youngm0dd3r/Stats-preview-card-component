@@ -1,0 +1,166 @@
+html {
+  background-color: hsl(233, 47%, 7%);
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  /* font-size: 15px; */
+}
+
+h2 {
+  color: hsl(0, 0%, 100%);
+  font-size: 2.5vh;
+}
+
+.main-heading {
+  font-weight: 700;
+  padding: 10px 5% 0 5%;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+.main-card-container {
+  background-color: hsl(244, 38%, 16%);
+  width: 90vw;
+  height: 85vh;
+  position: absolute;
+  top: 7.5vh;
+  left: 5vw;
+  text-align: center;
+  border-style: none;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.image-header-mobile {
+  width: 100%;
+  height: 25vh;
+  opacity: 0.5;
+  display: flex;
+}
+
+.image-header-desktop {
+  display: None;
+}
+
+.filtered-img {
+  background: hsl(276.7, 100%, 36.9%);
+
+}
+
+.main-paragraph {
+  color: hsla(0, 0%, 100%, 0.6);
+  padding: 0 5%;
+  font-size: 1.5vh;
+  line-height: 1.5;
+}
+
+.footer{
+
+}
+
+.stats-info {
+  margin-top: 5vh;
+}
+
+.stats-name {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 1.5vh;
+  text-transform: uppercase;
+}
+
+.stats-figure {
+  margin: 4vh 0 -0.5vh 0;
+}
+
+
+
+@media screen and (min-width: 800px) {
+  .main-card-container {
+    background-color: hsl(244, 38%, 16%);
+    width: 75vw;
+    height: 50vh;
+    position: absolute;
+    top: 25vh;
+    left: 12.5vw;
+    text-align: center;
+    border-style: none;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .filtered-img {
+    float: right;
+    width: 50%;
+    height: 100%;
+  }
+
+  .image-header-desktop {
+    width: 100%;
+    height: inherit;
+    opacity: 0.5;
+    display: flex;
+  }
+
+   .image-header-mobile {
+    display: None;
+  }
+
+  .card-body {
+    text-align: center;
+    width: 50%;
+    height: inherit;
+    padding: 6% 5%;
+    box-sizing: border-box;
+
+  }
+
+  .main-heading {
+  	margin: unset;
+  	font-size: 2.4vw;
+  	padding-right: 10%;
+  	text-align: justify;
+  }
+
+
+  .main-paragraph {
+	color: hsla(0, 0%, 100%, 0.6);
+	line-height: 1.5;
+	padding-right: 15%;
+	text-align: left;
+  font-size: 1vw;
+  margin-top: 7%;
+  padding-bottom: 5%;
+}
+
+.stats-name {
+  font-size: 0.9vw;
+}
+
+
+  .footer-stats-information {
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    position: relative;
+  }
+
+.stats-info {
+	display: inline-block;
+	text-align: left;
+	margin-right: 13%;
+  margin-top: unset;
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
